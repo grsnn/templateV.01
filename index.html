@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="description" content="Diseños CS es una página donde podras encontrar plantillas echas a partirtir de HTML, CSS y JS. Todo el contenido es gratis.">
+    <meta name="theme-color" content="#1c2331">
+    <title>DISEÑOS CS</title>
+    <!--ARCHIVOS CSS-->
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Nunito+Sans:400,600,700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="public-d/css/style.css">
+</head>
+
+<body id="inicio">
+    <header class="container-nav mdb-color darken-4 z-depth-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="nav" id="nav">
+                        <div class="buttons-redes animated pulse slow">
+                            <a href="" class="z-depth-1 waves-effect f"><i class="fab fa-facebook-f"></i></a>
+                            <a href="" class="z-depth-1 waves-effect t"><i class="fab fa-twitter"></i></a>
+                            <a href="" class="z-depth-1 waves-effect i"><i class="fab fa-instagram"></i></a>
+                            <a href="" class="z-depth-1 waves-effect g"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="menu animated pulse slow">
+                            <span class="bar"></span>
+                        </div>
+                        <div class="nav-list">
+                            <ul class="list-items animated pulse slow">
+                                <li><a data-scroll href="#inicio" class="link waves-effect waves-light"><i class="fas fa-home"></i> Inicio</a></li>
+                                <li><a data-scroll href="#plantillas" class="link waves-effect waves-light"><i class="fas fa-code"></i> Plantillas</a></li>
+                                <li><a data-scroll href="#contacto" class="link waves-effect waves-light"><i class="fas fa-envelope-open-text"></i> Contacto</a></li>
+                                <li><a data-scroll href="admin/" class="link waves-effect waves-light"><i class="fas fa-user-cog"></i> Admin</a></li>
+                                <li><a href="#" class="waves-effect waves-light"><i class="fas fa-times"></i> Salir</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="z-depth-3 banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title animated pulse slow">
+                        <h1>Diseños CS</h1>
+                        <P>Las plantillas más cool sobre desarrollo web</P>
+                        <div class="buttons">
+                            <a href="login.html" class="btn mdb-color darken-4 waves-effect waves-light"><i class="fas fa-sign-in-alt"></i> INGRESAR</a>
+                            <a href="registro.html" class="btn btn-outline-dark waves-effect"><i class="fas fa-user-plus"></i> REGISTRATE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="container-items z-depth-3" id="plantillas">
+                    <div class="header-items animated pulse slow">
+                        <h2>PLANTILLAS HTML, CSS Y JS</h2>
+                        <form action="" class="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="search" placeholder="Buscar..">
+                            </div>
+                        </form>
+                        <div class="btn-category animated pulse slow" id="categorias">
+                            <button class="btn btn-outline-light"><a href="#" class="active-btn">Todos</a></button>
+                            <button class="btn btn-outline-light"><a href="#" class="">Formularios</a></button>
+                            <button class="btn btn-outline-light"><a href="#" class="">Contacto</a></button>
+                            <button class="btn btn-outline-light"><a href="#" class="">Varios</a></button>
+                        </div>
+                    </div>
+                    <section class="cont-item animated pulse slow" id="contItem">
+                        <div class="item z-depth-2" data-categoria="formularios" data-labels="login registro">
+                            <img src="public-d/image/background.jpg" alt="">
+                            <div class="icon-cora z-depth-4">
+                                <span>1222 <i class="fas fa-heart"></i></span>
+                            </div>
+                            <p>Este es un pequeño formulario de contacto</p>
+                            <div class="button-ver">
+                                <a href="dis-completo.html" class="waves-effect">VER COMPLETO</a>
+                            </div>
+                        </div>
+                        <div class="item z-depth-2" data-categoria="formularios" data-labels="login registro">
+                            <img src="public-d/image/banner-f.jpg" alt="">
+                            <div class="icon-cora z-depth-4">
+                                <span>1222 <i class="fas fa-heart"></i></span>
+                            </div>
+                            <p>Este es un pequeño formulario de login y registro con HTML CSS Y JS.</p>
+                            <div class="button-ver">
+                                <a href="dis-completo.html" class="waves-effect">VER COMPLETO</a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="container-items z-depth-3 animated pulse slow" id="contacto">
+                    <div class="header-items">
+                        <h2>¿ Dudas o sugerencias ?</h2>
+                        <p>Elige el medio que mas te convenga</p>
+                    </div>
+                    <section class="container-contacto">
+                        <a href="" class="gmail z-depth-1 waves-effect waves-light"><i class="fas fa-envelope-open-text"></i></a>
+                        <a href="" class="whatsapp z-depth-1 waves-effect waves-light"><i class="fab fa-whatsapp"></i></a>
+                        <a href="" class="messenger z-depth-1 waves-effect waves-light"><i class="fab fa-facebook-messenger"></i></a>
+                    </section>
+                </div>
+                <!--btn ir arriba-->
+                <div class="button-arriba">
+                    <a class="waves-effect waves-light mdb-color darken-3 z-depth-5" id="buttonTop">
+                        <i class="fas fa-arrow-up"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="mdb-color darken-4 py-4 animated pulse slow">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="container-footer">
+                        <div class="name">
+                            <h2>Diseños CS</h2>
+                        </div>
+                        <div class="buttons-redes">
+                            <p>Siguenos</p>
+                            <div class="icons">
+                                <a href="" class="z-depth-1 waves-effect f"><i class="fab fa-facebook-f"></i></a>
+                                <a href="" class="z-depth-1 waves-effect t"><i class="fab fa-twitter"></i></a>
+                                <a href="" class="z-depth-1 waves-effect i"><i class="fab fa-instagram"></i></a>
+                                <a href="" class="z-depth-1 waves-effect g"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="copy">
+                            <p>&copy; 2020 Todos los derechos reservados: <a href="">Gerson CS</a><br>Ciudad de Guatemala</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyB0AmOtOIziQM75HBxi0YJXRSYwpCgQcJk",
+            authDomain: "dis-cs.firebaseapp.com",
+            databaseURL: "https://dis-cs.firebaseio.com",
+            projectId: "dis-cs",
+            storageBucket: "dis-cs.appspot.com",
+            messagingSenderId: "602215045149",
+            appId: "1:602215045149:web:300ad729a54699b4038ef4",
+            measurementId: "G-ZSLDEFEMRG"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+    <!--ARCHIVOS JS-->
+    <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+    <script src="https://kit.fontawesome.com/497871d138.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/js/mdb.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="public-d/js/script.js"></script>
+</body>
+
+</html>

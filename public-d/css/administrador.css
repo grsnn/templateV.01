@@ -1,0 +1,163 @@
+.container-admin{
+    margin: 50px auto;
+    padding: 30px;
+    position: relative;
+    border-radius: 10px;
+    position: relative;
+}
+
+.agregar-dis{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -20px;
+    right: calc(50% - 20px);
+    transition: all .5s ease;
+
+}
+
+.agregar-dis a{
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.agregar-dis:hover{
+    transform: rotate(-145deg);
+    transition: all .5s ease;
+}
+
+.banner{
+    height: 200px;
+}
+
+.banner .title h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 2px 2px rgba(28,35,49,.2);
+    margin: 0;
+}
+
+.container-admin .header{
+    width: 100%;
+}
+
+.container-admin .header h2{
+    color: #1c2331;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.form{
+    margin-top: 20px;
+}
+
+.container-admin .header form{
+    margin-top: 10px;
+}
+
+.modal-body form{
+    padding: 5px;
+}
+
+.container-admin .header form .form-group .form-control,
+.container-admin form .form-group .form-control,
+.modal-body form .form-group .form-control,
+.custom-file{
+    outline: none;
+    caret-color: rgba(28,35,49,.8);
+    color: rgba(28,35,49);
+    background: transparent;
+    box-shadow: inset 0 1px 1px rgba(28,35,49,.05),0 0 8px rgba(28,35,49,.1);
+    border: solid 1px rgba(28,35,49,.1);
+    border-radius: 5px;
+    transition: all .3s ease;
+    overflow: hidden;
+}
+
+option{
+    color: rgba(28,35,49);
+}
+textarea{
+    resize: none;
+}
+
+.custom-select{
+    background: #fff;
+    border: solid 1px rgb(92,107,192,.5);
+    color: rgba(28,35,49);
+}
+
+.custom-file-label{
+    border: none!important;
+    margin: 0!important;
+    background: transparent;
+
+}
+
+.custom-file input{
+    background: red!important;
+}
+
+.custom-file-label::after{
+    display: none;
+    content: "ELEGIR"!important;
+    background: #0d47a1;
+    color: #fff;
+    cursor: pointer!important;
+}
+
+.container-admin .header form .form-group .form-control:hover,
+.container-admin form .form-group .form-control:hover,
+.modal-body form .form-group .form-control:hover{
+    border: solid 1px rgba(28,35,49,.5);
+    transition: all .3s ease;
+}
+  
+.container-admin .header form .form-group .form-control:focus,
+.container-admin form .form-group .form-control:focus,
+.modal-body form .form-group .form-control:focus,
+.custom-file:focus{
+    outline: none;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(92,107,192,.4);
+    border: solid 1px rgb(92,107,192,.5);
+    transition: all .3s ease;
+}
+
+.modal-body form .footer-form .btn-form,
+.container-admin form .footer-form .btn-form{
+    background: #1c2331;
+    color: #fff;
+    margin: 0;
+    border: solid 2px rgba(28,35,49);
+    border-radius: 5px;
+    transition: all .3s ease;
+    padding: 10px 30px;
+}
+
+.modal-body form .btn-form:hover,
+.container-admin form .footer-form .btn-form:hover{
+    background: transparent;
+    color: rgba(28,35,49);
+    transition: all .3s ease;
+}
+
+th,td{
+    text-align: center;
+}
+
+@media (max-width: 575px){
+    .container-admin{
+        padding: 20px;
+    }
+}

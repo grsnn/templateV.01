@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1c2331">
+    <title>EDITAR DISEÑO</title>
+    <!--ARCHIVOS CSS-->
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Nunito+Sans:400,600,700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../public-d/css/style.css">
+    <link rel="stylesheet" href="../public-d/css/administrador.css">
+</head>
+<body id="inicio">
+    <header class="container-nav mdb-color darken-4 z-depth-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="nav" id="nav">
+                        <div class="buttons-redes animated pulse slow">
+                            <a href="" class="z-depth-1 waves-effect f"><i class="fab fa-facebook-f"></i></a>
+                            <a href="" class="z-depth-1 waves-effect t"><i class="fab fa-twitter"></i></a>
+                            <a href="" class="z-depth-1 waves-effect i"><i class="fab fa-instagram"></i></a>
+                            <a href="" class="z-depth-1 waves-effect g"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="menu animated pulse slow">
+                            <span class="bar"></span>
+                        </div>
+                        <div class="nav-list">
+                            <ul class="list-items animated pulse slow">
+                              <li><a href="../" class="link waves-effect waves-light"><i class="fas fa-home"></i> Inicio</a></li>
+                              <li><a href="administrador.html" class="link waves-effect waves-light"><i class="fas fa-user-cog"></i> Administrador</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title animated pulse slow">
+                        <h2>¿ Tienes algun problema ? ¡ Editalo !</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-9 col-lg-6 m-auto">
+                <section class="z-depth-3 container-admin animated pulse slow">
+                    <div class="header animated pulse slow">
+                        <h2>Editar Diseño</h2>
+                    </div>
+                    <form class="form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Titulo">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Abstracto">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="URL Descarga">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="URL GitHub">
+                        </div>
+                        <div class="form-group">
+                            <select class="browser-default custom-select form-control">
+                                <option selected>Categorias</option>
+                                <option value="1">Formulario</option>
+                                <option value="2">Plantilla</option>
+                                <option value="3">Login</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Etiquetas (login,form,html,css,etc)">
+                        </div>
+                        <div class="form-group">
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="customFileLang">
+                                <label class="custom-file-label" for="customFileLang">Elegir Imagen</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Texto"></textarea>
+                        </div>
+                        <div class="footer-form">
+                            <button type="submit" class="btn btn-form waves-effect"><i class="fas fa-edit mr-2"></i>Actualizar</button>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </div>
+    <!--btn ir arriba-->
+    <div class="button-arriba">
+        <a class="waves-effect waves-light mdb-color darken-3 z-depth-5" id="buttonTop">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </div>
+    <footer class="mdb-color darken-4 py-4 animated pulse slow">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="container-footer">
+                        <div class="name">
+                            <h2>Diseños CS</h2>
+                        </div>
+                        <div class="buttons-redes">
+                            <p>Siguenos</p>
+                            <div class="icons">
+                                <a href="" class="z-depth-1 waves-effect f"><i class="fab fa-facebook-f"></i></a>
+                                <a href="" class="z-depth-1 waves-effect t"><i class="fab fa-twitter"></i></a>
+                                <a href="" class="z-depth-1 waves-effect i"><i class="fab fa-instagram"></i></a>
+                                <a href="" class="z-depth-1 waves-effect g"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="copy">
+                            <p>&copy; 2020 Todos los derechos reservados: <a href="">Gerson CS</a><br>Ciudad de Guatemala</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyB0AmOtOIziQM75HBxi0YJXRSYwpCgQcJk",
+            authDomain: "dis-cs.firebaseapp.com",
+            databaseURL: "https://dis-cs.firebaseio.com",
+            projectId: "dis-cs",
+            storageBucket: "dis-cs.appspot.com",
+            messagingSenderId: "602215045149",
+            appId: "1:602215045149:web:300ad729a54699b4038ef4",
+            measurementId: "G-ZSLDEFEMRG"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+    <!--ARCHIVOS JS-->
+    <script src="/__/firebase/7.14.1/firebase-app.js"></script>
+    <script src="/__/firebase/7.14.1/firebase-analytics.js"></script>
+    <script src="/__/firebase/init.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="https://kit.fontawesome.com/497871d138.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/js/mdb.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="../public-d/js/script-form.js"></script>
+</body>
+</html>
